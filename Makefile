@@ -10,7 +10,8 @@ backupdb:
 venv:
 	if [ ! -d "./env" ]; then \
 		virtualenv env --system-site-packages ;\
-		source env/bin/activate; \
+		sleep 2;\
+		source env/bin/activate && pip install -r requirements.txt; \
 	else\
 		echo "env exists. omitting...";\
 	fi;
