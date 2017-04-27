@@ -1,0 +1,13 @@
+click==6.7
+Flask==0.12.1
+flask-peewee==0.6.7
+itsdangerous==0.24
+Jinja2==2.9.6
+MarkupSafe==1.0
+peewee==2.9.2
+Pygments==2.2.0
+requests==2.13.0
+sqlite-web==0.1.7
+Werkzeug==0.12.1
+wtf-peewee==0.2.6
+WTForms==2.1
