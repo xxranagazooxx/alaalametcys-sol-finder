@@ -1,0 +1,8 @@
+#configs
+config.cfg
+
+#backups
+backups/*
+
+#databases
+main.db
